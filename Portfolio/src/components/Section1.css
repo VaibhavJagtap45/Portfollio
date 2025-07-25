@@ -1,0 +1,306 @@
+/* section  1  css*/
+.section1 {
+  border-radius: 20px;
+  /* background-color: rgb(174, 195, 255); */
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+.section1 {
+   border: 1px solid #0004ff !important;
+}
+.profilepic {
+  position: relative;
+ border: 1px solid #0004ff;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section1 h4 {
+  font-size: 30px;
+  /* font-family: roboto slab; */
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px  solid #0004ff ;
+  /* border-radius: 20px; */
+}
+.Hi_There{
+  font-size: 20px;
+}
+.profilepic{
+  cursor: pointer;
+}
+.section1 span {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+  font-family: Poppins, sans-serif;
+  border-radius: 5px;
+}
+
+.socialaccount {
+  width: 230px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 7.5px;
+  margin: 20px auto 30px;
+  /* margin-top: 20px; */
+  list-style: none;
+}
+.socialaccount li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #f3f6f6;
+  text-align: center;
+  line-height: 40px;
+}
+.contactlist {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #c5c6c9;
+  padding: 10px 10px;
+  padding-right: 0px;
+  align-items: center;
+}
+
+.icons li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.contact {
+  width: 90%;
+  background-color: #f3f7fb;
+  border-radius: 16px;
+  text-align: left;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+}
+.contactlist p,
+.text p a {
+  font-size: 14.5px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  /* font-size: 11px; */
+  line-height: 27px;
+  color: #44566c;
+  text-decoration: none;
+  /* word-break: break-all; */
+}
+
+.contact p a {
+  color: #44566c !important;
+}
+
+.contactlist .text span {
+  border-radius: 16px;
+  text-align: left !important;
+  padding-left: 0px;
+}
+/* .contactlist .text p a{text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+} */
+
+.contactlist .icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: var(--common-white);
+  border-radius: 8px;
+  text-align: center;
+  line-height: 44px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.contactlist .text {
+  margin-left: 20px;
+}
+
+.contactlist:last-child {
+  border-bottom: none;
+}
+
+.Button1 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: white;
+  background: linear-gradient(97deg, #4d02fc, #09daf6);
+  line-height: 27px;
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.Button1:hover {
+  transform: translateY(-2px);
+}
+
+.abtbox:hover{
+  transform: translateY(-7px);
+}
+
+.Button1 button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-left: 5px;
+}
+.socialaccount svg {
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.mystyle .section1 {
+  background-color: #1d1d1d;
+}
+.mystyle .contact {
+  background-color: #000000;
+}
+.mystyle .icon {
+  background-color: #000000;
+}
+.mystyle .text span {
+  background: transparent;
+  color: #a6a6a6;
+}
+.mystyle .text p,
+.text p a {
+  color: #ffffff;
+}
+.mystyle .section1 span {
+  background-color: #1d1d1d;
+  color: #a6a6a6;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mystyle .section1 li {
+  background-color: #000000;
+}
+.inner-circle{
+  
+}
+.mystyle .contact p a {
+  color: white !important;
+}
+.mystyle .socialaccount .fa-x-twitter {
+  color: white;
+}
+.mystyle .socialaccount .fa-github {
+  color: #fff; /* GitHub's standard color */
+}
+
+
+/* .mystyle .socialaccount li a:hover{ background: linear-gradient(97deg, #fa5252, #dd2476); } */
+.mystyle .aboutpage textarea {
+  color: #ffffff !important;
+}
+
+.section123 {
+  border-radius: 20px;
+  /* width: 100%; */
+  /* margin-left: 0; */
+  border: #0004ff solid 1px;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  text-align: center;
+  /* padding: 40px 30px; */
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+.bostami-parsonal-info-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: -180px auto 21px;
+}
+
+.socialaccount li:hover svg,
+.icon:hover svg {
+  color: white;
+}
+
+.socialaccount li:hover,
+.icon:hover {
+  background: linear-gradient(97deg, #4d02fc, #09daf6);
+}
+
+.section1 h4 {
+  animation: animate 10s ease-in-out infinite;
+  background: -webkit-repeating-linear-gradient(
+    -60deg,
+    #cd001a,
+    #61007d, 
+    #ef6a00,
+    #fa5252,
+    #dd2476,
+    #1961ae
+  );
+  background-size: 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+  position: relative;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.typing-effect {
+  display: inline-block; 
+  font-size: 1.2rem; 
+  font-weight: bold;
+  color: #333; 
+}
+
+.typing-effect .Cursor {
+  display: inline-block; 
+  width: 10px; 
+  background-color: black; 
+  animation: blink 0.75s step-end infinite; 
+  margin-left: 5px; 
+}
+
+/* Blinking effect for the cursor */
+@keyframes blink {
+  50% {
+    background-color: transparent; /* Make the cursor disappear */
+  }
+}
+.download-butto{
+  color: #fff !important;
+}

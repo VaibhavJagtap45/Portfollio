@@ -1,0 +1,331 @@
+.resumepagemain h4 {
+  font-size: 26px;
+}
+.resumepagemain h5 {
+  font-size: 22px;
+}
+.resumepagemain span svg {
+  color: #09daf6;
+  padding-right: 10px;
+}
+.resumepagemain {
+  border: 1px solid #0004ff;
+  border-start-start-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.bostami-card-item {
+  border-radius: 12px;
+  padding: 25px 20px 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.bostami-card-item .card-subtitle {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 9px;
+  color: #44566c;
+}
+.card-subtitle {
+  font-family: "Poppins";
+  /* color: #A6A6A6 !important; */
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.bostami-card-item .card-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--heading-black);
+  margin-bottom: 4px;
+}
+.bostami-card-item .card-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #000000;
+}
+.bostami-card-item .card-descrip {
+  color: #44566c;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+.bg-light-white-2 {
+  /* background-color: #f8fbfb; */
+  background-color: white;
+  padding: 50px;
+}
+
+.resumepagefirst {
+  background-color: #fff;
+  border-start-start-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 50px;
+  padding-bottom: 5px;
+}
+
+.skill-bar-item .title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.skill-bar-item .title-wrap .title {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--body-text);
+  margin-bottom: 0;
+}
+
+.skill-bar-item .title-wrap .count {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--body-text);
+}
+
+.progress-bar-wrap {
+  height: 6px;
+  background: #edf2f2;
+  border-radius: 6px;
+  overflow: inherit;
+}
+
+.progress-bg-1 {
+  background-color: #ff6464;
+}
+
+.progress-line {
+  height: 100%;
+  border-radius: inherit;
+}
+
+.progress-bg-2 {
+  background-color: #9272d4;
+}
+.progress-line {
+  height: 100%;
+  border-radius: inherit;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.progress-bg-3 {
+  background-color: #5185d4;
+}
+.progress-bg-4 {
+  background-color: #ca56f2;
+}
+.gk-item {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  background: #edf2f2;
+  border-radius: 8px;
+  padding: 5px 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+.footer-copyright {
+  background-color: #fff;
+  /* background-color: rgb(174, 195, 255); */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  font-family: Poppins;
+  color: #44566c;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.section-wrapper {
+  padding-top: 2px;
+}
+
+.mystyle .resumepagefirst {
+  background-color: #1d1d1d;
+}
+.mystyle .bg-light-white-2 {
+  background-color: #1d1d1d;
+}
+/* .mystyle .resumemainpage , .section-wrapper , .footer-copyright{
+    background-color: #000000;
+} */
+.mystyle .gk-item {
+  background-color: #000000;
+  color: #a6a6a6;
+}
+.mystyle .bostami-card-item {
+  background-color: #000000;
+  border: 1px solid #353535;
+}
+.mystyle .bostami-card-item span,
+p {
+  color: #a6a6a6;
+}
+.mystyle .footer-copyright span {
+  color: #a6a6a6;
+  font-weight: 500;
+}
+.mystyle .footer-copyright {
+  background-color: #1d1d1d;
+}
+.mystyle .bostami-card-item .card-text {
+  color: #fff;
+}
+.mystyle .bostami-card-item .card-descrip {
+  color: #a6a6a6;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contactlist .text {
+    overflow-wrap: anywhere;
+  }
+  .section1 {
+    width:fit-content;
+  }
+  .bostami-parsonal-info-img,
+  .profilepic {
+    width: 180px;
+    height: 180px;
+  }
+  .bostami-parsonal-info-img {
+    margin: -155px auto -1px;
+  }
+  .contact {
+    width: 100%;
+    padding: 2px;
+  }
+  .menu {
+    width: -webkit-fill-available;
+  }
+  .section2nav li {
+    width: 65px;
+  }
+  .section2nav li a {
+    width: auto;
+  }
+  .resumepagefirst {
+    padding: 50px 35px 1px 50px;
+  }
+  .aboutpage {
+    padding: 25px;
+  }
+  .resumepagefirst {
+    padding: 25px;
+  }
+}
+/* Resume.css */
+
+/* For the vector shapes */
+.vectors-container {
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* To keep the vectors in the background */
+}
+
+/* Container for the education section */
+.education-container {
+  position: relative;
+}
+
+/* Outer circle style */
+.outer-circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #09daf6; /* Outer circle color */
+  z-index: 2; /* Outer circle above the line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner circle style */
+.inner-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff; /* Inner circle color */
+  border: 2px solid #09daf6; /* Border to make inner circle visible */
+  z-index: 1; /* Inner circle on top of the outer circle */
+}
+
+/* Position the outer circle next to the B.Tech card */
+.outer-circle-1 {
+  top: 9%;
+  left: -10%; /* Adjust to place next to the card */
+}
+
+/* Position the outer circle next to the HSC card */
+.outer-circle-2 {
+  top: 36%;
+  left: -10%;
+}
+
+/* Position the outer circle next to the SSC card */
+.outer-circle-3 {
+  top: 62%;
+  left: -10%; /* Adjust to place next to the card */
+}
+/* Position the outer circle next to the SSC card */
+.outer-circle-4 {
+  top: 87%;
+  left: -10%; /* Adjust to place next to the card */
+}
+
+/* Line to connect B.Tech to HSC */
+.line-1 {
+  position: absolute;
+  top: 20%;
+  left: -8%;
+  width: 2px;
+  background-color: #4d02fc;
+  height: 31%;
+  z-index: 1;
+}
+
+/* Line to connect HSC to SSC */
+.line-2 {
+  position: absolute;
+  top: 50%;
+  left: -8%;
+  width: 2px;
+  background-color: #4d02fc;
+  height: 33%;
+  z-index: 1;
+}
+/* Line to connect HSC to SSC */
+.line-2 {
+  position: absolute;
+  top: 11%;
+  left: -8%;
+  width: 2px;
+  background-color: #4d02fc;
+  height: 51%;
+  z-index: 1;
+}
+.line-3 {
+  position: absolute;
+  top: 21%;
+  left: -8%;
+  width: 2px;
+  background-color: #4d02fc;
+  height: 67%;
+  z-index: 1;
+}
+.resumepagefirst.wow {
+  animation: fadeUp 1s ease-out forwards;
+  animation-delay: 0.2s;
+}

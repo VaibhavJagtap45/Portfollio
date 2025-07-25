@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maincont {
+  display: flex;
+}
+.mainpage {
+  background-image: url("../src/assets/wallpape12.jpg");
+
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background-position: 50%;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.maincont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.maincont {
+  gap: 20px;
+}
+
+.mystyle .mainpage {
+  background-image: url("../src/assets/backgrounddark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  background-position: 67%;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .theme-toggle{font-size: 50px;} */
+
+.togglebtnmain {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}
+.theme-toggle svg {
+  vertical-align: baseline;
+  font-size: 20px;
+  color: #44566c;
+}
+
+.theme-toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, .1); */
+  border: none;
+}
+
+.theme-toggle:hover {
+  background-color: #ffcb3c;
+}
+
+.mystyle .theme-toggle {
+  background-color: black;
+}
+.mystyle .theme-toggle svg {
+  color: white;
+}
+/* .mystyle .theme-toggle:hover{background-color: #ed3d1a;} */
+.mystyle .theme-toggle {
+  /* background-color:    #1b3f36; */
+  border-radius: 50%;
+  box-shadow: 0 0 10px #6a75f4, 0 0 20px #6a75f4, 0 0 40px #fff,
+    0 0 80px #6a75f9, 0 0 120px #203d3c;
+  text-shadow: 0 0 10px #6a75f4, 0 0 20px #6a76f9, 0 0 40px #fff,
+    0 0 80px #2d997e, 0 0 120px #203d3c;
+}
+.mystyle .theme-toggle:hover {
+  background-color:#000000;
+}
+/* Ensure the cursor is correctly positioned right after the text */
+.mystyle .contact-form .input-label {
+  color: #fff; /* Light gray text color for labels in dark mode */
+}
+.mystyle .contact-form .form-btn{
+  outline: #fff;
+}
+/* Keyframes for fade-up animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at original position */
+  }
+}
+
+/* Applying the fade-up animation to sections */
+.section1, .section2 {
+  opacity: 0;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.wow.fadeup {
+}
+
+.wow.fadeup.animated {
+  visibility: visible;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.section1, .section2 {
+  animation-delay: 0.2s; /* Optional delay before animation starts */
+}
+.section1 {
+   border: 1px solid #0004ff !important;
+}
+.text-fs {
+font-size: 11px !important;
+font-weight: 500;
+}

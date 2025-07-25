@@ -1,0 +1,158 @@
+.aboutpage {
+  padding-bottom: 1px !important;
+  background-color: #fff;
+   /* background-color: rgb(174, 195, 255); */
+ 
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.bostami-section-title-wrap {
+  padding: 32px 0px;
+}
+
+.pagetitle {
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+  /* font-family: Roboto Slab, serif; */
+
+  /* color: black; */
+  margin-top: 0;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pagetitle:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  background-color: var(--theme-primary);
+  left: 107%;
+  top: 70%;
+  transform: translatey(-50%);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background: linear-gradient(97deg, #4d02fc, #09daf6);
+}
+
+.about p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #44566c;
+}
+
+.whatido h3 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  color: var(--body-heading);
+}
+
+.whatido .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bostami-what-do-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.bg-prink {
+  background-color: #fff4f4;
+}
+
+.bg-catkrill {
+  background-color: #eef5fa;
+}
+
+.title {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  color: black;
+}
+
+.text p {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 27px;
+  color: #44566c;
+}
+
+.mystyle .aboutpage {
+  background-color: #1d1d1d;
+}
+.mystyle .aboutpage p {
+  color: #a6a6a6 !important;
+}
+.mystyle .aboutpage h4 {
+  color: white;
+}
+.mystyle .abtbox {
+  background-color: #000 !important;
+  border: 1px solid #353535 !important;
+}
+.aboutpage{
+  outline: 1px solid #0004ff;
+}
+/* Keyframes for fade-up animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at original position */
+  }
+}
+
+/* Applying the animation to .aboutpage */
+.aboutpage {
+  opacity: 0;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+/* Animation trigger on scroll */
+.wow.fadeup {
+
+}
+
+.wow.fadeup.animated {
+  visibility: visible;
+  animation: fadeUp 1s ease-out forwards;
+}
+
+/* Optional: Add more control on animation delay */
+.aboutpage.wow {
+  
+  animation: fadeUp 1s ease-out forwards;
+  animation-delay: 0.2s; /* Delay before the animation starts */
+}
+/* Keyframe Animation for Custom Animation */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at the normal position */
+  }
+}
+
+/* Apply Custom Animation to the .bostami-what-do-item */
+.bostami-what-do-item {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+/* Optionally, adjust the animation delay */
+.bostami-what-do-item[data-wow-delay="0.6s"] {
+  animation-delay: 0.6s;
+}
