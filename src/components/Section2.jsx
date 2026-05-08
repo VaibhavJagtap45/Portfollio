@@ -13,7 +13,6 @@ import "./Section2.css";
 
 const navItems = [
   { label: "About", to: "/", icon: <FiUser /> },
-  { label: "Resume", to: "/resume", icon: <FiFileText /> },
   { label: "Works", to: "/portfolio", icon: <FiBriefcase /> },
   { label: "Resources", to: "/blogs", icon: <FiBookOpen /> },
   { label: "Contact", to: "/contact", icon: <FiMail /> },
